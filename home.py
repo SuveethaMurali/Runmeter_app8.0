@@ -110,12 +110,4 @@ with col2:
     if st.button("Proceed to Method Selection ➡️"):
         st.switch_page("pages/1_Method_Selection.py")
 
-# ----------- Sidebar Navigation Linking -------------
-if page_choice == "📘 Method Selection":
-    st.switch_page("pages/1_Method_Selection.py")
-elif page_choice == "🌀 SCS CN Method":
-    st.switch_page("pages/2_SCS CN_Method.py")
-elif page_choice == "📈 Strange's Method":
-    st.switch_page("pages/3_Strange's_Method.py")
-elif page_choice == "📊 Runoff Result":
-    st.switch_page("pages/4_Runoff_Result.py")
+
